@@ -63,5 +63,5 @@ Copyright (C) 2022 Alan D. Salewski <ads@salewski.email>
     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 
-[COPYING]: https://github.com/salewski/ads-latex-greek-alphabet/blob/master/COPYING "file: COPYING"
-[RENDPDF]: https://github.com/salewski/ads-latex-greek-alphabet/blob/master/rendered/ads-latex-greek-alphabet.pdf "file: ads-latex-greek-alphabet.pdf"
+[COPYING]: ./COPYING "file: COPYING"
+[RENDPDF]: ./rendered/ads-latex-greek-alphabet.pdf "file: ads-latex-greek-alphabet.pdf"
