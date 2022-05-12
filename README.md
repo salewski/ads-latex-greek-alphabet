@@ -11,8 +11,8 @@ letters. The alphabet letters are presented in both uppercase and
 lowercase. The `\varfoo` lowercase variations (e.g., `\varepsilon`) are also
 provided, where appropriate.
 
-Test:
-![This is the PDF](https://github.com/salewski/ads-latex-greek-alphabet/blob/master/rendered/ads-latex-greek-alphabet-as-exported-image.png)
+Test 002:
+![This is the PDF][EXPTPNG]
 
 
 # Build instructions
@@ -68,3 +68,4 @@ Copyright (C) 2022 Alan D. Salewski <ads@salewski.email>
 
 [COPYING]: ./COPYING "file: COPYING"
 [RENDPDF]: ./rendered/ads-latex-greek-alphabet.pdf "file: ads-latex-greek-alphabet.pdf"
+[EXPTPNG]: ./rendered/ads-latex-greek-alphabet-as-exported-image.png
