@@ -11,8 +11,7 @@ letters. The alphabet letters are presented in both uppercase and
 lowercase. The `\varfoo` lowercase variations (e.g., `\varepsilon`) are also
 provided, where appropriate.
 
-[The rendered PDF file][RENDPDF] looks like this:
-![PNG export of the rendered PDF][EXPTPNG]
+[The rendered PDF file][RENDPDF] looks like this: ![PNG export of the rendered PDF][EXPTPNG]
 
 
 # Build instructions
