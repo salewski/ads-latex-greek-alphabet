@@ -1,4 +1,9 @@
 
+## SPDX-FileCopyrightText: <text>
+##     © 2022 Alan D. Salewski <ads@salewski.email>
+## </text>
+## SPDX-License-Identifier: GPL-2.0-or-later
+
 SHELL=/bin/bash
 
 # all: pdf ps
