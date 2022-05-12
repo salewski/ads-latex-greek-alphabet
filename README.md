@@ -11,6 +11,9 @@ letters. The alphabet letters are presented in both uppercase and
 lowercase. The `\varfoo` lowercase variations (e.g., `\varepsilon`) are also
 provided, where appropriate.
 
+Test:
+![This is the PDF][RENDPDF]
+
 
 # Build instructions
 
