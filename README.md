@@ -15,8 +15,9 @@ provided, where appropriate.
 # Build instructions
 
 Note that building the PDF version of the document is not necessary if you do
-not wish to make changes to the document; a pre-rendered PDF of the most
-recent version is checked into the repository in the `rendered/` subdirectory.
+not wish to make changes to the document; a [pre-rendered PDF][RENDPDF] of the
+most recent version is checked into the repository in the `rendered/`
+subdirectory.
 
 Building requires a LaTeX installation with the `pdflatex` tool. On Debian
 (and Debian-derived) GNU/Linux, this can be obtained via:
@@ -62,4 +63,5 @@ Copyright (C) 2022 Alan D. Salewski <ads@salewski.email>
     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 
-[COPYING]: https://github.com/salewski/ads-latex-greek-alphabet/blob/master/COPYING
+[COPYING]: https://github.com/salewski/ads-latex-greek-alphabet/blob/master/COPYING "file: COPYING"
+[RENDPDF]: https://github.com/salewski/ads-latex-greek-alphabet/blob/master/rendered/ads-latex-greek-alphabet.pdf "file: ads-latex-greek-alphabet.pdf"
