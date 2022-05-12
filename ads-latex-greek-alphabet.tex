@@ -1,0 +1,156 @@
+% ads-latex-greek-alphabet.tex
+%
+% (c) 2022 Alan D. Salewski <ads@salewski.email>
+%
+
+%\documentclass[draft,10pt,letterpaper,landscape]{article}
+\documentclass[final,10pt,letterpaper,landscape]{article}
+
+% The 'hyperref' package provides the '\href{...}' command we use to create
+% hyperlinks in our PDF file.
+%
+% Use a tool like 'pdfinfo(1)' to review the properties in the generated PDF file:
+%
+%     $ pdfinfo ads-latex-greek-alphabet.pdf
+%     Title:          Greek Alphabet
+%     Subject:        Greek Alphabet in LaTeX
+%     Keywords:       greek alphabet, LaTeX
+%     Author:         Alan D. Salewski
+%     Creator:        LaTeX with hyperref
+%     Producer:       pdfTeX-1.40.21
+%     CreationDate:   Wed May 11 17:35:54 2022 EDT
+%     ModDate:        Wed May 11 17:35:54 2022 EDT
+%     Tagged:         no
+%     UserProperties: no
+%     Suspects:       no
+%     Form:           none
+%     JavaScript:     no
+%     Pages:          1
+%     Encrypted:      no
+%     Page size:      792 x 612 pts (letter)
+%     Page rot:       0
+%     File size:      68470 bytes
+%     Optimized:      no
+%     PDF version:    1.5
+%
+\usepackage[pdftex,
+    pdftitle={Greek Alphabet},
+    pdfauthor={Alan D. Salewski},
+    pdfsubject={Greek Alphabet in LaTeX},
+    colorlinks=true,
+    pdfborder={0,0,0},
+    urlcolor=blue,
+    pdfkeywords={greek alphabet, LaTeX},
+  ]
+  {hyperref}  
+
+%% We use the 'xcolor' package to obtain the '\rowcolors{...}' command, which
+%% we use to alternate the background colors of the rows in our table below.
+\usepackage[table]{xcolor}
+
+%margins
+\usepackage[hmargin=1.25cm, vmargin={1.25cm,2cm}]{geometry}
+
+\pagestyle{empty}  % header and footer are both empty
+
+
+\begin{document}
+
+{% begin environment for centering
+  \centering
+  %
+  % \rowcolors{<starting row index>}{<odd row color>}{<even row color>}
+  % [To use only one color, leave either of the row color arguments blank (e.g., '{}')]
+  %
+  \rowcolors{2}{gray!10}{gray!40}
+  %
+  %
+  \begin{tabular}{c | c || c | c || c | c | c | c}
+    \textbf{Letter Name}             &
+    \textbf{Pronunciation}           &
+    \textbf{Uppercase (UC)}          &
+    \textbf{\LaTeX for UC}           &
+    \textbf{Lowercase (LC)}          &
+    \textbf{\LaTeX for LC}           &
+    \textbf{LC variation (if any)}   &
+    \textbf{\LaTeX for LC variation} \\
+    \hline
+
+    ``alpha''   & (al-fah)    & A             & \texttt{A}           & $\alpha$   & \verb#\alpha#   & & \\
+%                &             & $\mathcal{A}$ & \verb#$\mathcal{A}$# &            &                 & & \\
+    \hline
+    \hline
+    ``beta''    & (bay-tah)   & B             & \texttt{B}           & $\beta$    & \verb#\beta#    & & \\
+%                &             & $\mathcal{B}$ & \verb#$\mathcal{B}$# &            &                 & & \\
+    \hline
+    \hline
+    ``gamma''   & (gam-mah)   & $\Gamma$      & \verb#$\Gamma$#      & $\gamma$   & \verb#\gamma#   & & \\
+    \hline
+    \hline
+    ``delta''   & (del-tah)   & $\Delta$      & \verb#$\Delta$#      & $\delta$   & \verb#\delta#   & & \\
+    \hline
+    \hline
+    ``epsilon'' & (ep-si-lon) & E             & \texttt{E}           & $\epsilon$ & \verb#\epsilon# & $\varepsilon$ & \verb#$\varepsilon$# \\
+%                &             & $\mathcal{E}$ & \verb#$\mathcal{E}$# &            &                 & & \\
+    \hline
+    \hline
+    ``zeta''    & (zay-tah)   & Z             & \texttt{Z}           & $\zeta$    & \verb#\zeta#    & & \\
+%                &             & $\mathcal{Z}$ & \verb#$\mathcal{Z}$# &            &                 & & \\
+    \hline
+    \hline
+    ``eta''     & (ay-tay)    & H             & \texttt{H}           & $\eta$     & \verb#\eta#     & & \\
+    \hline
+    \hline
+    ``theta''   & (thay-tay)  & $\Theta$      & \verb#$\Theta$#      & $\theta$   & \verb#\theta#   & $\vartheta$   & \verb#$\vartheta$# \\
+    \hline
+    \hline
+    ``iota''    & (eye-o-tah) & I             & \texttt{I}           & $\iota$    & \verb#\iota#    & & \\
+    \hline
+    \hline
+    ``kappa''   & (cap-ah)    & K             & \texttt{K}           & $\kappa$   & \verb#\kappa#   & & \\
+    \hline
+    \hline
+    ``lambda''  & (lam-dah)   & $\Lambda$     & \verb#$\Lambda$#     & $\lambda$  & \verb#\lambda#  & & \\
+    \hline
+    \hline
+    ``mu''      & (mew)       & M             & \texttt{M}           & $\mu$      & \verb#\mu#      & & \\
+    \hline
+    \hline
+    ``nu''      & (new)       & N             & \texttt{N}           & $\nu$      & \verb#\nu#      & & \\
+    \hline
+    \hline
+    ``xi''      & (zz-eye)    & $\Xi$         & \verb#$\Xi$#         & $\xi$      & \verb#\xi#      & & \\
+    \hline
+    \hline
+    ``omicron'' & (ome-cron)  & O             & \texttt{O}           & o          & \texttt{o}      & & \\
+    \hline
+    \hline
+    ``pi''      & (pie)       & $\Pi$         & \verb#$\Pi$#         & $\pi$      & \verb#\pi#      & & \\
+    \hline
+    \hline
+    ``rho''     & (roe)       & R             & \texttt{R}           & $\rho$     & \verb#\rho#     & $\varrho$     & \verb#$\varrho$# \\
+    \hline
+    \hline
+    ``sigma''   & (sig-mah)   & $\Sigma$      & \verb#$\Sigma$#      & $\sigma$   & \verb#\sigma#   & & \\
+    \hline
+    \hline
+    ``tau''     & (taw)       & T             & \texttt{T}           & $\tau$     & \verb#\tau#     & & \\
+    \hline
+    \hline
+    ``upsilon'' & (op-silon)  & $\Upsilon$    & \verb#$\Upsilon$#    & $\upsilon$ & \verb#\upsilon# & & \\
+    \hline
+    \hline
+    ``phi''     & (fie)       & $\Phi$        & \verb#$\Phi$#        & $\phi$     & \verb#\phi#     & $\varphi$     & \verb#\varphi#   \\
+    \hline
+    \hline
+    ``chi''     & (k-eye)     & X             & \texttt{X}           & $\chi$     & \verb#\chi#     & & \\
+    \hline
+    \hline
+    ``psi''     & (sigh)      & $\Psi$        & \verb#$\Psi$#        & $\psi$     & \verb#\psi#     & & \\
+    \hline
+    \hline
+    ``omega''   & (o-me-gah)  & $\Omega$      & \verb#$\Omega$#      & $\omega$   & \verb#\omega#   & &
+  \end{tabular}
+}
+
+\end{document}
