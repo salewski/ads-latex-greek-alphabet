@@ -12,7 +12,7 @@ lowercase. The `\varfoo` lowercase variations (e.g., `\varepsilon`) are also
 provided, where appropriate.
 
 Test:
-![This is the PDF](https://github.com/salewski/ads-latex-greek-alphabet/blob/master/rendered/ads-latex-greek-alphabet.pdf)
+![This is the PDF](https://github.com/salewski/ads-latex-greek-alphabet/blob/master/rendered/ads-latex-greek-alphabet-as-exported-image.png)
 
 
 # Build instructions
