@@ -4,7 +4,7 @@
 
 This is the README.md file for the `'ads-latex-greek-alphabet` project.
 
-This is just a tiny project that houses a LaTeX "cheat sheet" document that
+This is just a tiny project that houses a [LaTeX][WPLATEX] "cheat sheet" document that
 renders the letters of the Greek alphabet in a table, together with the letter
 names, pronunciations, and the LaTeX syntax required to render the respective
 letters. The alphabet letters are presented in both uppercase and
@@ -68,3 +68,5 @@ Copyright (C) 2022 Alan D. Salewski <ads@salewski.email>
 [COPYING]: ./COPYING "file: COPYING"
 [RENDPDF]: ./rendered/ads-latex-greek-alphabet.pdf "file: ads-latex-greek-alphabet.pdf"
 [EXPTPNG]: ./rendered/ads-latex-greek-alphabet-as-exported-image.png
+
+[WPLATEX]:  https://en.wikipedia.org/wiki/LaTeX    "Wikipedia: LaTeX"
