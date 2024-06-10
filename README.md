@@ -17,9 +17,9 @@ also provided, where appropriate.
 # Build instructions
 
 \[*Note that building the PDF version of the document is not necessary if you
-do not wish to make changes to the document; a [pre-rendered PDF][RENDPDF] (also: [inline within the GitHub web UI][PDFINGH]) of
-the most recent version is checked into the repository in the `rendered/`
-subdirectory.*\]
+do not wish to make changes to the document; a [pre-rendered PDF][RENDPDF]
+(also: [inline within the GitHub web UI][PDFINGH]) of the most recent version
+is checked into the repository in the `rendered/` subdirectory.*\]
 
 Building requires a LaTeX installation with the `pdflatex` tool. On
 [Debian][DEBIAN] (and Debian-derived) [GNU/Linux][GNULINUX], this can be
