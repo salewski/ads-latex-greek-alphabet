@@ -17,7 +17,7 @@ also provided, where appropriate.
 # Build instructions
 
 \[*Note that building the PDF version of the document is not necessary if you
-do not wish to make changes to the document; a [pre-rendered PDF][RENDPDF] of
+do not wish to make changes to the document; a [pre-rendered PDF][RENDPDF] (also: [inline within the GitHub web UI][PDFINGH]) of
 the most recent version is checked into the repository in the `rendered/`
 subdirectory.*\]
 
@@ -68,6 +68,7 @@ Copyright (C) 2022 Alan D. Salewski <ads@salewski.email>
 
 [COPYING]: ./COPYING "file: COPYING"
 [RENDPDF]: ./rendered/ads-latex-greek-alphabet.pdf?raw=true  "file: ads-latex-greek-alphabet.pdf"
+[PDFINGH]: ./rendered/ads-latex-greek-alphabet.pdf           "file: ads-latex-greek-alphabet.pdf (within GitHub web UI)"
 [EXPTPNG]: ./rendered/ads-latex-greek-alphabet-as-exported-image.png
 
 [DEBIAN]:   https://www.debian.org/                     "Debian: The Universal Operating System"
