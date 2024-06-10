@@ -67,7 +67,7 @@ Copyright (C) 2022 Alan D. Salewski <ads@salewski.email>
 
 
 [COPYING]: ./COPYING "file: COPYING"
-[RENDPDF]: ./rendered/ads-latex-greek-alphabet.pdf "file: ads-latex-greek-alphabet.pdf"
+[RENDPDF]: ./rendered/ads-latex-greek-alphabet.pdf?raw=true  "file: ads-latex-greek-alphabet.pdf"
 [EXPTPNG]: ./rendered/ads-latex-greek-alphabet-as-exported-image.png
 
 [DEBIAN]:   https://www.debian.org/                     "Debian: The Universal Operating System"
