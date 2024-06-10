@@ -4,12 +4,12 @@
 
 This is the README.md file for the `'ads-latex-greek-alphabet` project.
 
-This is just a tiny project that houses a LaTeX "cheat sheet" document that
-renders the letters of the Greek alphabet in a table, together with the letter
-names, pronunciations, and the LaTeX syntax required to render the respective
-letters. The alphabet letters are presented in both uppercase and
-lowercase. The `\varfoo` lowercase variations (e.g., `\varepsilon`) are also
-provided, where appropriate.
+This is just a tiny project that houses a [LaTeX][WPLATEX] "cheat sheet"
+document that renders the letters of the Greek alphabet in a table, together
+with the letter names, pronunciations, and the LaTeX syntax required to render
+the respective letters. The alphabet letters are presented in both uppercase
+and lowercase. The `\varfoo` lowercase variations (e.g., `\varepsilon`) are
+also provided, where appropriate.
 
 [The rendered PDF file][RENDPDF] looks like this: ![PNG export of the rendered PDF][EXPTPNG]
 
@@ -21,8 +21,9 @@ do not wish to make changes to the document; a [pre-rendered PDF][RENDPDF] of
 the most recent version is checked into the repository in the `rendered/`
 subdirectory.*\]
 
-Building requires a LaTeX installation with the `pdflatex` tool. On Debian
-(and Debian-derived) GNU/Linux, this can be obtained via:
+Building requires a LaTeX installation with the `pdflatex` tool. On
+[Debian][DEBIAN] (and Debian-derived) [GNU/Linux][GNULINUX], this can be
+obtained via:
 ```
     # apt-get install texlive-latex-base
 ```
@@ -68,3 +69,7 @@ Copyright (C) 2022 Alan D. Salewski <ads@salewski.email>
 [COPYING]: ./COPYING "file: COPYING"
 [RENDPDF]: ./rendered/ads-latex-greek-alphabet.pdf "file: ads-latex-greek-alphabet.pdf"
 [EXPTPNG]: ./rendered/ads-latex-greek-alphabet-as-exported-image.png
+
+[DEBIAN]:   https://www.debian.org/                     "Debian: The Universal Operating System"
+[GNULINUX]: https://www.gnu.org/gnu/linux-and-gnu.html  "gnu.org: Linux and the GNU System"
+[WPLATEX]:  https://en.wikipedia.org/wiki/LaTeX         "Wikipedia: LaTeX"
