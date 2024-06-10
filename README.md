@@ -22,7 +22,7 @@ the most recent version is checked into the repository in the `rendered/`
 subdirectory.*\]
 
 Building requires a LaTeX installation with the `pdflatex` tool. On [Debian][DEBIAN]
-(and Debian-derived) GNU/Linux, this can be obtained via:
+(and Debian-derived) [GNU/Linux][GNULINUX], this can be obtained via:
 ```
     # apt-get install texlive-latex-base
 ```
@@ -69,5 +69,6 @@ Copyright (C) 2022 Alan D. Salewski <ads@salewski.email>
 [RENDPDF]: ./rendered/ads-latex-greek-alphabet.pdf "file: ads-latex-greek-alphabet.pdf"
 [EXPTPNG]: ./rendered/ads-latex-greek-alphabet-as-exported-image.png
 
-[DEBIAN]:   https://www.debian.org/                "Debian: The Universal Operating System"
-[WPLATEX]:  https://en.wikipedia.org/wiki/LaTeX    "Wikipedia: LaTeX"
+[DEBIAN]:   https://www.debian.org/                     "Debian: The Universal Operating System"
+[GNULINUX]: https://www.gnu.org/gnu/linux-and-gnu.html  "gnu.org: Linux and the GNU System"
+[WPLATEX]:  https://en.wikipedia.org/wiki/LaTeX         "Wikipedia: LaTeX"
