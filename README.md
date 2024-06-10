@@ -4,12 +4,12 @@
 
 This is the README.md file for the `'ads-latex-greek-alphabet` project.
 
-This is just a tiny project that houses a [LaTeX][WPLATEX] "cheat sheet" document that
-renders the letters of the Greek alphabet in a table, together with the letter
-names, pronunciations, and the LaTeX syntax required to render the respective
-letters. The alphabet letters are presented in both uppercase and
-lowercase. The `\varfoo` lowercase variations (e.g., `\varepsilon`) are also
-provided, where appropriate.
+This is just a tiny project that houses a [LaTeX][WPLATEX] "cheat sheet"
+document that renders the letters of the Greek alphabet in a table, together
+with the letter names, pronunciations, and the LaTeX syntax required to render
+the respective letters. The alphabet letters are presented in both uppercase
+and lowercase. The `\varfoo` lowercase variations (e.g., `\varepsilon`) are
+also provided, where appropriate.
 
 [The rendered PDF file][RENDPDF] looks like this: ![PNG export of the rendered PDF][EXPTPNG]
 
@@ -21,8 +21,9 @@ do not wish to make changes to the document; a [pre-rendered PDF][RENDPDF] of
 the most recent version is checked into the repository in the `rendered/`
 subdirectory.*\]
 
-Building requires a LaTeX installation with the `pdflatex` tool. On [Debian][DEBIAN]
-(and Debian-derived) [GNU/Linux][GNULINUX], this can be obtained via:
+Building requires a LaTeX installation with the `pdflatex` tool. On
+[Debian][DEBIAN] (and Debian-derived) [GNU/Linux][GNULINUX], this can be
+obtained via:
 ```
     # apt-get install texlive-latex-base
 ```
